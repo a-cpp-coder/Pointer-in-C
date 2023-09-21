@@ -8,7 +8,7 @@ int main(void){
 
     printf("Please enter an integer to be summed");
     printf("(q to quit): ");
-    input_is_good = (scanf("%ld", &numb));
+    input_is_good = (scanf("%ld", &numb));  // a good way to go, still C is dangerous, just like C++ and more dangerous if you have 1 hand but this hand is so strong, Trich Tinh Thu
     do {
         // input_is_good = (scanf("%ld", numb) == 1);  // very clear that you are amateur, C's scanf() does need the 
                                                     // address of the variables to put the values in, not like C++ huh ?
