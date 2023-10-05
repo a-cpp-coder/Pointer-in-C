@@ -1,8 +1,0 @@
-// Why do we need do all of these serial programming at all
-// why we don't do all of these calculation in parallel
-
-Read all array's elements to memory - O(1)
-Caculate divisible_by_3 / by_5 - O(1)
-Get the boolean Math(&&) and branching - O(1)   // easy to draw logic gates ?
-Print the result - trouble  here, may need locking/lazy eval 
-                   but O(1) is still possible  
